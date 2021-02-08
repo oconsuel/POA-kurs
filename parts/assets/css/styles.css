@@ -6,6 +6,7 @@
   --first-color: #00b4fb;
   --first-color-light: #001a41;
   --white-color: #ff8422;
+  --text-color: #f2f2f2;
   --body-font: 'Nunito', sans-serif;
   --normal-font-size: 1rem;
   
@@ -168,6 +169,8 @@ a{
 
 .description__block .paragraph{
   font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .description__paragraph{
@@ -181,6 +184,15 @@ a{
 .algoritm{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.summary__text{
+  margin-bottom: 20px;
+}
+
+.videobox{
+  height: 750px;
+  width: 100%;
 }
 @media screen and (min-width: 768px){
   body{
