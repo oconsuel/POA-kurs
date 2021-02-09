@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 :root{
-  --header-height: 3rem;
+  --header-height: 70px;
   --nav-width: 68px;
-  --first-color: #00b4fb;
+  --first-color: #00619c;
   --first-color-light: #001a41;
-  --white-color: #ff8422;
+  --white-color: #c74a1a;
   --text-color: #f2f2f2;
+  --prof-color: #f37f1f;
+  --desc-color: #f37e1fc9;
   --body-font: 'Nunito', sans-serif;
   --normal-font-size: 1rem;
   
@@ -99,11 +101,11 @@ a{
 
 .nav__logo-icon{
   font-size: 1.25rem;
-  color: var(--white-color);
+  color: var(--prof-color);
 }
 
 .nav__logo-name{
-  color: var(--white-color);
+  color: var(--prof-color);
   font-weight: 700;
 }
 
@@ -115,7 +117,7 @@ a{
 }
 
 .nav__link:hover{
-  color: var(--white-color);
+  color: var(--prof-color);
 }
 
 .nav__icon{
@@ -131,7 +133,7 @@ a{
 }
 
 .active{
-  color: var(--white-color);
+  color: var(--prof-color);
 }
 
 .active::before{
@@ -155,16 +157,16 @@ a{
 }
 
 .description__block{
-  background: var(--white-color);
+  background: var(--desc-color);
   border-radius: 30px;
   padding: 50px;
-  color: var(--first-color-light);
   font-size: 20px;
   margin-bottom: 30px;
+  color: var(--first-color-light);
 }
 
 .description__block p{
-  font-size: 20px
+  font-size: 20px;
 }
 
 .description__block .paragraph{
