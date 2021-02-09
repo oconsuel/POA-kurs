@@ -169,6 +169,10 @@ a{
   font-size: 20px;
 }
 
+.description__block a:hover{
+  color: var(--text-color);
+}
+
 .description__block .paragraph{
   font-weight: bold;
   margin-top: 30px;
