@@ -28,7 +28,7 @@
             <div>
                 <a href="/index.html" class="nav__logo">
                     <i class='bx bx-layer nav__logo-icon'></i>
-                    <span class="nav__logo-name">Курс ПАО</span>
+                    <span class="nav__logo-name">Курс ПОА</span>
                 </a>
 
                 <div class="nav__list">
@@ -64,7 +64,7 @@
         </div>
         <div class="description__block">
             <div style="display: flex; align-items: center; justify-content: center;">
-                <iframe class="videobox" src="/parts/assets/videos/Презентация 6.mp4" height="300px" width="40%"></iframe>
+                <video class="videobox" src="/parts/assets/videos/Pres6.mkv" height="300px" width="40%" controls></video>
             </div>
             <ol>
                 <li class="paragraph">Обсуждение п. 7:</li>
@@ -82,9 +82,15 @@
                     <li>Опции от АНО ИТО? (Скидки за количество, наценка за срочность, обязательства по срокам)</li>
                 </ul>
             </ol>
-            <div style="margin: 100px;">
+            <div style="display:flex; justify-content: center; margin-top: 100px;"><button type="button" href="#div1"value="Click" onmousedown="viewDiv()" style="background-color: #f2f2f2; border: #f37f1f; border-radius: 20px; padding:20px; font-size: 20px;font-weight: bold; color:#001a41;">К презентации &dArr;</button></div>
+            <script>
+                function viewDiv(){
+  document.getElementById("div1").style.display = "block";
+};
+            </script>
+            <div id="div1" style="margin: 100px; display: none;">
                 <embed src="/parts/assets/pptx/Курс по ПОА. Часть 6. Подведение итогов.pdf"
-                    type="application/pdf" width="100%" height="800px">
+                    type="application/pdf" width="100%" height="650px">
             </div>
         </div>
     </div>

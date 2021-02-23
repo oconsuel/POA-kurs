@@ -200,6 +200,103 @@ a{
   height: 750px;
   width: 100%;
 }
+
+/*====about_me.html(содержимое)====*/
+
+.desc__block{
+  background:#eee;
+  height: 650px;
+  margin: 0 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:auto;
+
+}
+
+.container__aboutme{
+  position: relative;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  padding-right: 20px ;
+}
+
+.left{
+  position: relative;
+  width: 40%;
+  height: 100%;
+  overflow:hidden;
+
+}
+
+.left img{
+  height: 100%;
+  width: auto;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 0; */
+}
+
+.right{
+  position: relative;
+  width: 60%;
+  /* margin-top: 75px; */
+  margin-left: 30px;
+}
+
+.right h2{
+  position: relative;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.2)
+  
+}
+
+.right .name_autor{
+  width: 600px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.right span{
+  display: block;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 3px;
+  background: var(--white-color);
+}
+
+.right p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.right .icons{
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right .icons .bx{
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--first-color-light)
+}
+
+.right .icons .bx:hover{
+  background: var(--first-color-light);
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
 @media screen and (min-width: 768px){
   body{
     margin: calc(var(--header-height) + 1rem) 0 0 0;

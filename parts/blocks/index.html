@@ -19,7 +19,8 @@
         </div>
 
         <div class="">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Logo_APKIT.png" height ="50px" style="margin-top: 10px;" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Logo_APKIT.png" height="50px"
+                style="margin-top: 10px;" alt="">
         </div>
     </header>
 
@@ -28,7 +29,7 @@
             <div>
                 <a href="/index.html" class="nav__logo">
                     <i class='bx bx-layer nav__logo-icon'></i>
-                    <span class="nav__logo-name">Курс ПАО</span>
+                    <span class="nav__logo-name">Курс ПОА</span>
                 </a>
 
                 <div class="nav__list">
@@ -64,18 +65,37 @@
         </div>
         <div class="description__block">
             <div style="display: flex; align-items: center; justify-content: center;">
-                <iframe class="videobox" src="/parts/assets/videos/Презентация 1.mp4" height="300px" width="40%"></iframe>
+                <video class="videobox" src="/parts/assets/videos/Pres1.mkv" height="300px" width="40%"
+                    controls></video>
             </div>
+            <h1 class="paragraph">Содержание темы:</h1>
             <ol>
+                <li class="paragraph">Тезаурус курса (определение основных понятий);</li>
+                <li class="paragraph">История появления и развития:</li>
+                <ul>
+                    <li>процесса ПОА</li>
+                    <li>появления профессиональных стандартов (ПС)</li>
+                </ul>
+                <li class="paragraph">ПС – описание структуры и основных структурных элементов</li>
+                <li class="paragraph">ПОА – краткое описание алгоритма прохождения аккредитации</li>
+
+            </ol>
+            <div>
+                <p>Данная тема необходима для создания единой понятийной базы разработчиков курса и слушателей.</p>
+                <p>Контрольных вопросов по данной теме не предусмотрено.</p>
+            </div>
+            <!-- <ol>
                 <li class="paragraph">ПОА – определение, цель, история появления</li>
                 <p>Проведение ПОА является подтверждением качества образовательной программы с точки зрения
                     профессионального сообщества. Высокий уровень экспертов позволяет получить объективную оценку
                     образования. Сбор и анализ информации о своей деятельности также позволяет взглянуть по-новому на
                     свою работу.</p>
-                <li class="paragraph">Профессиональные стандарты. История появления. Основные структурные элементы. Работа с ПС</li>
+                <li class="paragraph">Профессиональные стандарты. История появления. Основные структурные элементы.
+                    Работа с ПС</li>
                 <p>Стандартизация в мире. Устаревшие справочники профессий. НАРК. СПК. Разработка ПС для ИТ. Структура
                     ПС.</p>
-                <li class="paragraph">Алгоритм прохождения ПОА – просто перечисление пунктов – очень кратко (для ориентации в
+                <li class="paragraph">Алгоритм прохождения ПОА – просто перечисление пунктов – очень кратко (для
+                    ориентации в
                     пространстве)</li>
                 <p>Алгоритм прохождения ПОА (более кратко, чем у АТО ИНО в таблице):</p>
                 <ul>
@@ -83,15 +103,23 @@
                     <li class="algoritm"> Подача заявки
                     <li class="algoritm"> Составление договора и графика проведения</li>
                     <li class="algoritm"> Проведение самообследования и подготовка всех необходимых материалов</li>
-                    <li class="algoritm"> Проведение процедуры очного визита эксперта, -ов (или дист формы встречи с ним, -ми)</li>
+                    <li class="algoritm"> Проведение процедуры очного визита эксперта, -ов (или дист формы встречи с
+                        ним, -ми)</li>
                     <li class="algoritm"> Составление отчетов экспертов</li>
                     <li class="algoritm"> Принятие решения Аккредитационным советом</li>
                     <li class="algoritm"> Получение рекомендаций от АС</li>
                 </ul>
-            </ol>
-            <div style="margin: 100px;">
-                <embed  src ="/parts/assets/pptx/Курс по ПОА. Часть 1. Введение.pdf" type = "application/pdf"  width = "100%"  height = "800px" >
-            </div>    
+            </ol> -->
+            <div style="display:flex; justify-content: center; margin-top: 100px;"><button type="button" href="#div1"value="Click" onmousedown="viewDiv()" style="background-color: #f2f2f2; border: #f37f1f; border-radius: 20px; padding:20px; font-size: 20px;font-weight: bold; color:#001a41;">К презентации &dArr;</button></div>
+            <script>
+                function viewDiv(){
+  document.getElementById("div1").style.display = "block";
+};
+            </script>
+            <div id="div1"style="margin: 100px; display:none;">
+                <embed  src="/parts/assets/pptx/Курс по ПОА. Часть 1. Введение.pdf" type="application/pdf" width="100%"
+                    height="650px">
+            </div>
         </div>
     </div>
     <!-- /#page-content-wrapper -->

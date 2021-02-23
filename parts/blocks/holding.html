@@ -28,7 +28,7 @@
             <div>
                 <a href="/index.html" class="nav__logo">
                     <i class='bx bx-layer nav__logo-icon'></i>
-                    <span class="nav__logo-name">Курс ПАО</span>
+                    <span class="nav__logo-name">Курс ПОА</span>
                 </a>
 
                 <div class="nav__list">
@@ -64,9 +64,23 @@
         </div>
         <div class="description__block">
             <div style="display: flex; align-items: center; justify-content: center;">
-                <iframe class="videobox" src="/parts/assets/videos/Презентация 5.mp4" height="300px" width="40%"></iframe>
+                <video class="videobox" src="/parts/assets/videos/Pres5.mkv" height="300px" width="40%" controls></video>
             </div>
+            <h1 class="paragraph">Содержание темы:</h1>
             <ol>
+                <li class="paragraph">Экспертная комиссия – формирование, задачи и организация ее работы;</li>
+                <li class="paragraph">Расчет оценки показателей;</li>
+                <li class="paragraph">Получение итоговой оценки и срока аккредитации;</li>
+                <li class="paragraph">Отказ в ПОА;</li>
+                <li class="paragraph">Порядок апелляции;</li>
+
+            </ol>
+            <div>
+                <p>Данная тема посвящена знакомству слушателей курса с заключительным этапом проведения ПОА – расчетами оценок и срока аккредитации образовательной программы. </p>
+                <p>К изучению данной темы имеет смысл приступить, заполнив анкету самообследования и выставив в ней собственные баллы (естественно, что эти баллы будут достаточно оптимистичны) ). Тем не менее, вы сможете оценить на какой срок аккредитации может претендовать ваша ОП, а также и те пункты вашей ОП, которые нуждаются в уточнении.</p>
+                <p>Контрольных вопросов по данной теме не предусмотрено.</p>
+            </div>
+            <!-- <ol>
                 <li class="paragraph">Порядок ПОА</li>
                 <li class="paragraph">Взаимодействие с экспертом (п. 4)</li>
                 <li class="paragraph">Ответы на вопросы п. 6:</li>
@@ -82,11 +96,17 @@
                         документов показывать на месте во время выездной проверки?</li>
                     <li>Составление плана посещения экспертами ОО.</li>
                 </ul>
-            </ol>
-            <div style="margin: 100px;">
+            </ol> -->
+            <div style="display:flex; justify-content: center; margin-top: 100px;"><button type="button" href="#div1"value="Click" onmousedown="viewDiv()" style="background-color: #f2f2f2; border: #f37f1f; border-radius: 20px; padding:20px; font-size: 20px;font-weight: bold; color:#001a41;">К презентации &dArr;</button></div>
+            <script>
+                function viewDiv(){
+  document.getElementById("div1").style.display = "block";
+};
+            </script>
+            <div id="div1" style="margin: 100px; display: none;">
                 <embed
                     src="/parts/assets/pptx/Курс по ПОА. Часть 5. Порядок прохождения ПОА - заполнение таблицы самообследования. Часть 2.pdf"
-                    type="application/pdf" width="100%" height="800px">
+                    type="application/pdf" width="100%" height="650px">
             </div>
         </div>
     </div>

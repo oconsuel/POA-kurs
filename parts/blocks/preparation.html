@@ -28,7 +28,7 @@
             <div>
                 <a href="/index.html" class="nav__logo">
                     <i class='bx bx-layer nav__logo-icon'></i>
-                    <span class="nav__logo-name">Курс ПАО</span>
+                    <span class="nav__logo-name">Курс ПОА</span>
                 </a>
 
                 <div class="nav__list">
@@ -64,9 +64,20 @@
         </div>
         <div class="description__block">
             <div style="display: flex; align-items: center; justify-content: center;">
-                <iframe class="videobox" src="/parts/assets/videos/Презентация 4.mp4" height="300px" width="40%"></iframe>
+                <video class="videobox" src="/parts/assets/videos/Pres4.mkv" height="300px" width="40%" controls></video>
             </div>
+            <h1 class="paragraph">Содержание темы:</h1>
             <ol>
+                <li class="paragraph">Порядок ПОА. Аккредитационная экспертиза;</li>
+                <li class="paragraph">Заполнение таблицы самообследования. Детальный разбор всех групп критериев и показателей. Показатели, имеющие пороговое значение;</li>
+            </ol>
+            <div>
+                <p>Детальный разбор технологии заполнения анкеты самообследования позволит слушателям описать процесс обучения, подготовить необходимые дополнительные документы и заполнить анкету при прохождении ПОА.</p>
+                <p>При изучении данной темы желательно подготовить экземпляр анкеты самообследования для того, чтобы в процессе прослушивания видеоматериалов по возможности заполнять свою анкету и/или делать необходимые пометки.</p>
+                <p>Адрес для скачивания анкеты самообследования и других необходимых (дополнительных) документов указан в презентации видеокурса.</p>
+                <p>Для подтверждения понимания темы необходимо ответить на контрольные вопросы в конце каждой презентации.</p>
+            </div>
+            <!-- <ol>
                 <li class="paragraph">Список документов</li>
                 <ul>
                     <li>Что такое оператор ПОА и зачем он нужен? Основные задачи оператора.</li>
@@ -173,11 +184,17 @@
                         </details>
                     </li>
                 </ul>
-            </ol>
-            <div style="margin: 100px;">
+            </ol> -->
+            <div style="display:flex; justify-content: center; margin-top: 100px;"><button type="button" href="#div1"value="Click" onmousedown="viewDiv()" style="background-color: #f2f2f2; border: #f37f1f; border-radius: 20px; padding:20px; font-size: 20px;font-weight: bold; color:#001a41;">К презентации &dArr;</button></div>
+            <script>
+                function viewDiv(){
+  document.getElementById("div1").style.display = "block";
+};
+            </script>
+            <div id="div1" style="margin: 100px;display: none;">
                 <embed
                     src="/parts/assets/pptx/Курс по ПОА. Часть 4. Порядок прохождения ПОА - заполнение таблицы самообследования. Часть 1.pdf"
-                    type="application/pdf" width="100%" height="800px">
+                    type="application/pdf" width="100%" height="650px">
             </div>
         </div>
     </div>
