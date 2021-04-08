@@ -203,59 +203,59 @@ a{
 
 /*====about_me.html(содержимое)====*/
 
-.desc__block{
-  background:#eee;
+.abme_desc{
+  margin-top: 120px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container__aboutme{
+  
   height: 650px;
   margin: 0 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width:auto;
-
-}
-
-.container__aboutme{
-  position: relative;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:100%;
+  width:100%;
   padding-right: 20px ;
+  
+  background:#eee;
 }
 
+.left_right_block{
+  margin-top: 200px; display: flex; height: 500px; 
+}
 .left{
-  position: relative;
-  width: 40%;
-  height: 100%;
-  overflow:hidden;
-
+  width: 30%; display: flex; justify-content: center; align-items:center; height: 100%;
 }
 
-.left img{
-  height: 100%;
-  width: auto;
-  /* padding: 20px;
-  padding-left: 40px;
-  padding-right: 0; */
+.left_img{
+  height: 100%; width: auto; display: flex; align-items:center;justify-content: center; background:#eee; padding: 30px;
 }
 
 .right{
   position: relative;
+  display: block;
   width: 60%;
   /* margin-top: 75px; */
   margin-left: 30px;
+  
+  
 }
 
 .right h2{
   position: relative;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.2)
+  /* color: rgba(0, 0, 0, 0.2) */
+  color: white;
   
 }
 
 .right .name_autor{
-  width: 600px;
+  display: flex;
+  justify-content: left;
+  width: auto;
   height: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -297,6 +297,12 @@ a{
   transition: 0.5s;
   cursor: pointer;
 }
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
 @media screen and (min-width: 768px){
   body{
     margin: calc(var(--header-height) + 1rem) 0 0 0;
@@ -332,4 +338,30 @@ a{
 }
 
 
+@media screen and (max-width: 1200px){
+  .left_right_block{
+    display: block;
+    align-items:center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  
+  .left{
+    width: 100%;
+  }
 
+  .left_img{
+    max-height: 330px !important;
+  }
+  .left img{
+    max-height: 300px !important;
+  }
+  .right{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .right .name_autor{
+    margin-bottom: 100px;
+  }
+}
