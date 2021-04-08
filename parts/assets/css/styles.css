@@ -197,7 +197,7 @@ a{
 }
 
 .videobox{
-  height: 750px;
+  height: auto;
   width: 100%;
 }
 
@@ -337,7 +337,28 @@ button:focus {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .videobox{
+    margin: 20px;
+    margin-top: 50px;
+  }
+  .paragraph{
+    font-size: 30px !important;
 
+  }
+   .description__block{
+     padding: 15px;
+   }
+  .description__block h1{
+    font-size: 30px !important;
+    justify-content: center;
+    display: flex;
+  }
+
+  li.paragraph {
+    font-size: 20px !important;
+  }
+}
 @media screen and (max-width: 1200px){
   .left_right_block{
     display: block;
