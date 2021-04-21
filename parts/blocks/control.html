@@ -13,13 +13,19 @@
 </head>
 
 <body id="body-pd">
+    <script>
+
+        alert("К сожалению мы не предоставляем возможности просмотра видео в стандартных приложениях Apple. Для просмотра перейдите в другой браузер или на другое устройство.Приносим свои извинения");
+
+    </script>
     <header class="header" id="header">
         <div class="header__toggle">
             <i class='bx bx-menu' id="header-toggle"></i>
         </div>
 
         <div class="">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Logo_APKIT.png" height ="50px" style="margin-top: 10px;" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Logo_APKIT.png" height="50px"
+                style="margin-top: 10px;" alt="">
         </div>
     </header>
 
@@ -64,17 +70,22 @@
         </div>
         <div class="description__block">
             <div style="display: flex; align-items: center; justify-content: center;">
-                <video class="videobox" src="/parts/assets/videos/Pres7.mkv" height="300px" width="40%" controls></video>
+                <video class="videobox" src="/parts/assets/videos/Pres7.mkv" height="300px" width="40%"
+                    controls></video>
             </div>
             <h1 class="paragraph">Содержание темы:</h1>
             <div>
                 <p>Итоговая работа посвящена проверке вашего понимания и изучения анкеты самообследования.</p>
-                    <p>Разработаны три варианта проверочной работы.</p> 
-                    <p>Вам необходимо определить свой вариант, вписать ваши варианты ответов в таблицу – и прислать ее</p> 
-                    <ul><li>При заполнении правильно 30% ответов – Вы недостаточно хорошо освоили курс</li>
+                <p>Разработаны три варианта проверочной работы.</p>
+                <p>Вам необходимо определить свой вариант, вписать ваши варианты ответов в таблицу – и прислать ее</p>
+                <ul>
+                    <li>При заполнении правильно 30% ответов – Вы недостаточно хорошо освоили курс</li>
                     <li>При заполнении правильно от 31 до 70% ответов – Вы неплохо освоили курс</li>
-                    <li>При заполнении правильно от 71% ответов – Вы отлично освоили курс</li></ul>
-                <p>При изучении данной темы желательно скачать методику НАРК и необходимо скачать методику СПК-ИТ для изучения тех особенностей, про которые рассказывается в курсе. Адреса для скачивания указаны в презентации видео-курса.</p>
+                    <li>При заполнении правильно от 71% ответов – Вы отлично освоили курс</li>
+                </ul>
+                <p>При изучении данной темы желательно скачать методику НАРК и необходимо скачать методику СПК-ИТ для
+                    изучения тех особенностей, про которые рассказывается в курсе. Адреса для скачивания указаны в
+                    презентации видео-курса.</p>
                 <p>Для подтверждения понимания темы необходимо ответить на контрольные вопросы в конце презентации.</p>
             </div>
             <!-- <ol>
@@ -91,14 +102,18 @@
                     <li class="algoritm">В чем особенность ПОА именно в АПКИТ (следование принципам ПОА НАРК, учет специфики ИТ, Аккредсовет с большим опытом работы, привлечение экспертов-работодателей, рекомендации по итогам – их высоко ценят даже самые востребованные вузы – ВШЭ, РЭУ им. Плеханова, СПбГУ, Иннополис и др.)?</li>
                 </ul>
             </ol> -->
-            <div style="display:flex; justify-content: center; margin-top: 100px;"><button type="button" href="#div1"value="Click" onmousedown="viewDiv()" style="background-color: #f2f2f2; border: #f37f1f; border-radius: 20px; padding:20px; font-size: 20px;font-weight: bold; color:#001a41;">К презентации &dArr;</button></div>
+            <div class="present" style="display:flex; justify-content: center; margin-top: 100px;"><button type="button"
+                    href="#div1" value="Click" onmousedown="viewDiv()"
+                    style="background-color: #f2f2f2; border: #f37f1f; border-radius: 20px; padding:20px; font-size: 20px;font-weight: bold; color:#001a41;">К
+                    презентации &dArr;</button></div>
             <script>
-                function viewDiv(){
-  document.getElementById("div1").style.display = "block";
-};
+                function viewDiv() {
+                    document.getElementById("div1").style.display = "block";
+                };
             </script>
             <div id="div1" style="margin: 100px; display: none;">
-                <embed src ="/parts/assets/pptx/Курс по ПОА. Часть 2. Варианты проверочных заданий.pdf" type = "application/pdf"  width = "100%"  height = "650px" >
+                <embed src="/parts/assets/pptx/Курс по ПОА. Часть 2. Варианты проверочных заданий.pdf"
+                    type="application/pdf" width="100%" height="650px">
             </div>
         </div>
     </div>

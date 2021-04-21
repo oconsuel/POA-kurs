@@ -25,3 +25,7 @@ function colorLink(){
     }
 }
 linkColor.forEach(l=> l.addEventListener('click', colorLink))
+
+function viewDiv(){
+    document.getElementById("div1").style.display = "block";
+  };
